@@ -1,0 +1,25 @@
+.contact-input {
+    border: none;
+    border-bottom: 2px solid lightgray;
+    width: 80%;
+    margin: 1rem auto;
+    display: block;
+    padding: 1rem;
+}
+
+textarea {
+    width: 80%;
+    margin: 1rem auto;
+    display: block;
+    padding: 1rem;
+    border: 1px solid #737b7d73;
+}
+
+.input-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 80%;
+    margin: 0 auto;
+}

@@ -1,25 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route
+} from 'react-router-dom';
+import Home from './pages/Home'
+import Products from './pages/Products';
+import Contact from './pages/Contact';
+import Gallery from './pages/Gallery';
+import Customization from './pages/Customization';
+import About from './pages/About';
+import Bar from './components/Bar/Bar';
+import NavBar from './components/navbar/NavBar';
+import Footer from './components/footer/Footer';
+import ProductDetails from './pages/ProductDetails';
+import PlaceOrder from './pages/PlaceOrder';
+import Checkout from './pages/Checkout';
+import OrderSucces from './pages/OrderSucces';
+import Error from './pages/Error';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return ( 
+    <>
+        <Router>
+        <Bar />
+        <Footer />
+        </Router>
+    </>
+    );
 }
 
 export default App;

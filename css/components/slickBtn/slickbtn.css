@@ -1,0 +1,34 @@
+.btns {
+    background: #ffffff !important;
+    box-shadow: 5px 2px 5px 0px rgba(0, 0, 0, 0.25);
+    color: #000 !important;
+    height: 100px !important;
+    width: 40px !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    opacity: .5;
+}
+
+.btnsnext::before {
+    content: '»' !important;
+    font-weight: 900;
+    color: #000 !important;
+}
+
+.btnsprev::before {
+    content: '«' !important;
+    font-weight: 900;
+    color: #000 !important;
+}
+
+.btnsprev {
+    left: 1px !important;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.btnsnext {
+    right: 0px !important;
+    border-radius: 5px 0px 0px 5px;
+}

@@ -1,0 +1,154 @@
+.placeOrder {
+    display: flex;
+    width: 95%;
+    margin: 1rem auto;
+    /* gap: 1rem; */
+}
+
+.placeOrder .custom-user-details {
+    background-color: #fff;
+    width: 95%;
+    margin: 1rem auto;
+    min-height: 330px;
+    box-shadow: none;
+    padding: 1rem;
+}
+
+.placeOrder .custom-user-details:nth-child(2) {
+    background-color: #22A39F;
+}
+
+.placeOrder .custom-user-details:nth-child(2) .input-box.active-grey .input-label {
+    background-color: #22A39F;
+    color: #fff;
+}
+
+.placeOrder .custom-user-details:nth-child(2) .input-box.active-grey .input-1 {
+    background-color: #22A39F;
+}
+
+.placeOrder .custom-user-details:nth-child(2) .checking2 .input-box,
+.placeOrder .custom-user-details:nth-child(1) .checking2 .input-box {
+    width: 33%;
+}
+
+.retrun {
+    background-color: #fff;
+    width: 95%;
+    margin: 1rem auto;
+    min-height: 200px;
+    /* box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.25); */
+    padding: 1rem;
+}
+
+.retrun button {
+    background: #22A39F;
+    border: none;
+    width: 200px;
+    height: 40px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inconsolata;
+    /* font-size: 46px; */
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 5px;
+}
+
+.placeorder-summery {
+    background-color: #fff;
+    width: 70%;
+    margin: 1rem auto;
+    min-height: 200px;
+    /* box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.25); */
+    padding: 1rem;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.placeorder-price {
+    background-color: #fff;
+    width: 30%;
+    margin: 1rem auto;
+    min-height: 200px;
+    /* box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.25); */
+    padding: 1rem;
+}
+
+.placeorder-details {
+    display: flex;
+    width: 95%;
+    margin: 1rem auto;
+}
+
+.placeorder-price div {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    height: 100%;
+    gap: 1rem;
+}
+
+.placeorder-price div p {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.placeorder-price div button {
+    border-radius: 57px;
+    background: #497174;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inconsolata;
+    /* font-size: 46px; */
+    font-style: normal;
+    font-weight: 500;
+    height: 40px;
+}
+
+.colorgre {
+    color: #22A39F;
+}
+
+@media only screen and (max-width: 600px) {
+    .placeOrder {
+        flex-direction: column;
+    }
+    .placeOrder .custom-user-details:nth-child(2) .checking2 .input-box,
+    .placeOrder .custom-user-details:nth-child(1) .checking2 .input-box {
+        width: 100%;
+    }
+    .placeOrder .custom-user-details {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .placeorder-details {
+        display: block;
+    }
+    .placeorder-summery {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .placeorder-price {
+        width: 100%;
+        margin: 0 auto;
+    }
+}

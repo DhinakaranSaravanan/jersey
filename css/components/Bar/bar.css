@@ -1,0 +1,9 @@
+.bar {
+    background-color: #000;
+    color: #fff;
+    height: 53px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

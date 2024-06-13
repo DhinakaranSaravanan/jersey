@@ -1,0 +1,73 @@
+.contact-container {
+    background: linear-gradient( to right, #fff 0%, #fff 70%, #22A39F 70%, #22A39F 0%);
+    width: 90%;
+    height: 800px;
+    margin: 3rem auto;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.contact-map {
+    width: 50%;
+    height: 90%;
+}
+
+.contact-info {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.contact-map iframe {
+    margin: 0 auto;
+    border: none !important;
+    outline: none;
+}
+
+.contact-container button {
+    width: 80%;
+    margin: 1rem auto;
+    display: block;
+    padding: 1rem;
+    border-radius: 5px;
+    background: #0982FE;
+    border: none;
+    color: #fff;
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 950px) {
+    .contact-container {
+        background: linear-gradient( to bottom, #fff 0%, #fff 70%, #22A39F 50%, #22A39F 70%);
+        width: 95%;
+        flex-direction: column;
+        min-height: 1000px;
+        height: 1200px;
+    }
+    .contact-map {
+        width: 95%;
+        margin-bottom: 1.5rem;
+        /* height: 95%;/ */
+    }
+    .contact-info {
+        width: 95%;
+        /* height: 95%; */
+    }
+    .contact-map iframe {
+        width: 100%;
+    }
+    .contact-info .contact-input {
+        width: 95%;
+    }
+    .contact-info textarea {
+        width: 95%;
+    }
+    .contact-info .input-divider {
+        width: 95%;
+    }
+}

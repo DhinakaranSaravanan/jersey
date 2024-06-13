@@ -1,0 +1,40 @@
+.selected {
+    color: #22A39F;
+    font-weight: 800;
+    border-bottom: 4px solid #22A39F;
+    ;
+}
+
+.navbar-container {
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    /* width: 80%; */
+}
+
+.logo-container {
+    height: 80%;
+    min-width: 5%;
+    /* background-color: red; */
+    /* padding: 1.5rem; */
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* min-width: 50%; */
+    min-width: 70%;
+    /* background-color: red; */
+}
+
+.nav-cart {
+    min-width: 10%;
+    font-size: 30px;
+    /* background-color: red; */
+}
